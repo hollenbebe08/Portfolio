@@ -1,5 +1,7 @@
 :root {
     --primary-color: #74725a;
+    --secondary-color: rgb(17,34,61);
+    --tertiary-color: rgb(111,94,134);
 }
 
 * {
@@ -13,6 +15,7 @@ body {
 }
 
 header {
+    background-color: rgb(17,34,61,.5);
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0,0,0);
     font-weight: 500;
@@ -28,7 +31,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: rgb(0,0,0)
+    color: blanchedalmond;
 }
 
 header nav {
@@ -47,14 +50,15 @@ header nav ul li {
 header nav ul li a {
     border-spacing: 20px;
     border-style: outset;
-    border-color: rgb(17,34,61);
+    border-width: thin;
     border-radius: 5px;
-    background-color: aquamarine;
-    font-size: 20pt;
+    font-size: 16pt;
 }
 
 footer {
-    font-family: var(--primary-font);
+    padding: 25px;
+    background-color: rgb(17,34,61,.5);
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-wrap: wrap;
 }
