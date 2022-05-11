@@ -22,11 +22,35 @@ header {
     justify-content: right;
     align-items: center;
     list-style: none;
+    padding: 20px;
+}
+
+
+header a {
+    text-decoration: none;
+    color: rgb(0,0,0)
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li {
     display: inline;
-    padding-right: 60px;
+    padding-right: 30px;
+}
+
+header nav ul li a {
+    border-spacing: 20px;
+    border-style: outset;
+    border-color: rgb(17,34,61);
+    border-radius: 5px;
+    background-color: aquamarine;
+    font-size: 20pt;
 }
 
 footer {
@@ -44,4 +68,9 @@ footer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.about-me-styling h2 {
+    display: flex;
+    flex-wrap: wrap;
 }
