@@ -52,7 +52,7 @@ header nav ul li {
 header nav ul li a {
     border-spacing: 20px;
     border-style: outset;
-    border-width: thin;
+    border: 2px solid var(--tertiary-color);
     border-radius: 5px;
     font-size: 16pt;
 }
@@ -64,40 +64,48 @@ header nav ul li a:hover {
 
 /*Begin styling About Me section*/
 .about-me-styling {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     background-color: var(--tertiary-color);
     padding-top: 50px;
-}
-
-.about-me-styling h1 {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.about-me-styling-section {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30pt;
+    text-align: left;
     color: var(--secondary-color);
-    border-bottom: 6px solid var(--secondary-color);
-    width: 25%;
+    width: 40%;
+    padding-left: 20px;
 }
 
-.personal-facts {
-    background-color: var(--tertiary-color);
-    padding: 0px 50px 80px 50px;
+.about-me-styling-section h1 {
+    font-size: 30pt;
+    text-align: center;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 20px;
+    border-bottom: 2px solid var(--secondary-color);
 }
 
-.personal-facts ul li {
-    font-size: 38px;
-    margin-left: 80px;
-    padding-top: 0px;
+.about-me-styling-section p {
+    font-size: 14pt;
+    color: black;
+    padding: 15px 0px 0px 70px;
 }
 
 .personal-facts img {
-    margin:auto;
+    margin: auto;
     width: 10cm;
-    height: 9cm;
+    height: 10cm;
     overflow: auto;
-    padding-left: 40px;
-    padding-top: 0px;
+    border: 5px solid var(--primary-color);
+    border-radius: 2px;
+    box-shadow: 5px 5px;
 }
 
 /*begin styling creation preview section*/
@@ -119,17 +127,19 @@ header nav ul li a:hover {
     border-bottom: 6px solid;
     margin: 0 auto 50px auto;
     width: 25%;
+    padding-top: 70px; 
 }
 
 .preview-creations img, h2 {
     background-color: var(--tertiary-color);
     padding: 15px 60px;
     width: 25%;
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     overflow: auto;
+    flex: 0 1 auto; */
 }
 
  /*Begin footer styling*/
