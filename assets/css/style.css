@@ -109,9 +109,9 @@ header nav ul li a:hover {
 
 /*begin styling creation preview section*/
 .creations-banner {
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 48px;
+    font-size: 30pt;
+    font-family: Arial, Helvetica, sans-serif;
     color: var(--secondary-color);
     background-color: var(--tertiary-color);
     border-bottom: 2px solid;
@@ -198,7 +198,7 @@ footer {
     }
 
     .creations-banner {
-        font-size: 20pt;
+        font-size: 18pt;
         margin: auto;
         width: 20%;
     }
@@ -212,6 +212,9 @@ footer {
    .completed-projects img {
        max-width: 100%;
        max-height: 100%;
+   }
+   .completed-projects h2 {
+       font-size: 14pt;
    }
    .connect h3 {
        padding-bottom: 2px;
@@ -247,7 +250,7 @@ footer {
         height: 5cm;
     }
     .creations-banner {
-        font-size: 16pt;
+        font-size: 14pt;
         margin: auto;
         padding: 50px 0px 0px 0px;
     }
@@ -257,6 +260,9 @@ footer {
         flex-wrap: wrap;
         justify-content: space-around;
         padding-top: 20px;
+    }
+    .completed-projects h2 {
+        font-size: 10pt;
     }
     .completed-projects img {
         max-width: 100%;
@@ -305,6 +311,12 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-top: 0px;
+    }
+
+    .completed-projects h2 {
+        font-size: 12pt;
+        padding-top: 25px;
     }
     .completed-projects img {
         max-width: 100%;
