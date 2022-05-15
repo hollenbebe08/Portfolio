@@ -139,6 +139,17 @@ header nav ul li a:hover {
     max-height: 400px;
 }
 
+.completed-projects img:hover {
+    position: relative;
+    top: -25px;
+    left:-35px;
+    width:500px;
+    height: auto;
+    display: block;
+    box-shadow: 5px 5px;
+    z-index: 999;
+}
+
 
  /*Begin footer styling*/
 footer {
@@ -167,4 +178,128 @@ footer {
     display: flex;
     justify-content: left;
 }
-/*Add items to make the website work on different device sizes*/
+
+/*Start Media queries*/
+
+/*980px screens and smaller stylings*/
+@media screen and (max-width: 980px) {
+    header {
+        padding-right: 0px;
+    }
+    .about-me-styling-section h1 {
+        font-size: 18pt;
+        padding-left: 0px;
+    }
+    .about-me-styling-section p {
+        font-size: 14pt;
+        padding: 7px 20px 0px 55px;
+    }
+    .personal-facts img {
+        width: 8cm;
+        height: 8cm;
+    }
+
+    .preview-title {
+        font-size: 20pt;
+        margin: auto;
+    }
+    .preview-creations {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+   .completed-projects img {
+       max-width: 250px;
+       max-height: 250px;
+       padding-top: 20px;
+   }
+   .connect h3 {
+       padding-bottom: 2px;
+   }
+}
+
+/*768px screens and smaller stylings*/
+@media screen and (max-width: 768px) {
+    header {
+        padding: 15px 0px 8px;
+    }
+
+    header nav ul li {
+        padding-right: 15px;
+    }
+    header nav ul li a {
+        font-size: 13pt;
+    }
+    .about-me-styling {
+        padding-top: 22px;
+    }
+    .about-me-styling-section h1 {
+        font-size: 14pt;
+        padding: 0px;
+        margin: auto;
+    }
+    .about-me-styling-section p {
+        font-size: 12pt;
+        padding: 5px 20px 0px 45px;
+    }
+    .personal-facts img {
+        width: 5cm;
+        height: 5cm;
+    }
+    .preview-title {
+        font-size: 16pt;
+        margin: auto;
+        padding: 50px 0px 0px 0px;
+    }
+    .preview-creations {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .completed-projects img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+    .connect h3 {
+        font-size: 12pt;
+        padding-bottom: 2px;
+    }
+}
+
+/*575px screens and smaller stylings*/
+/* @media screen and (max-width: 575px) {
+    header {
+        padding: 5px 0px;
+    }
+    header nav ul li {
+        padding-right: 15px;
+    }
+    header nav ul li a {
+        font-size: 14pt;
+    }
+    .about-me-styling {
+        padding: 20px 0px 0px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .about-me-styling-section h1 {
+        font-size: 11pt;
+        padding: 0px;
+        margin: auto;
+    }
+    .about-me-styling-section p {
+        font-size: 9pt;
+        padding: 5px 20px 0px 45px;
+    }
+    .personal-facts img {
+        width: 5cm;
+        height: 5cm;
+    }
+    .completed-projects img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+} */
