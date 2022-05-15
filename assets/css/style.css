@@ -108,7 +108,7 @@ header nav ul li a:hover {
 }
 
 /*begin styling creation preview section*/
-.preview-title {
+.creations-banner {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 48px;
@@ -197,20 +197,21 @@ footer {
         height: 8cm;
     }
 
-    .preview-title {
+    .creations-banner {
         font-size: 20pt;
         margin: auto;
+        width: 20%;
     }
     .preview-creations {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-around;
+        padding-top: 20px;
     }
    .completed-projects img {
-       max-width: 250px;
-       max-height: 250px;
-       padding-top: 20px;
+       max-width: 100%;
+       max-height: 100%;
    }
    .connect h3 {
        padding-bottom: 2px;
@@ -220,7 +221,7 @@ footer {
 /*768px screens and smaller stylings*/
 @media screen and (max-width: 768px) {
     header {
-        padding: 15px 0px 8px;
+        padding: 15px 0px 8px 0px;
     }
 
     header nav ul li {
@@ -239,13 +240,13 @@ footer {
     }
     .about-me-styling-section p {
         font-size: 12pt;
-        padding: 5px 20px 0px 45px;
+        padding: 0px 5px 0px 30px;
     }
     .personal-facts img {
         width: 5cm;
         height: 5cm;
     }
-    .preview-title {
+    .creations-banner {
         font-size: 16pt;
         margin: auto;
         padding: 50px 0px 0px 0px;
@@ -255,10 +256,11 @@ footer {
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-around;
+        padding-top: 20px;
     }
     .completed-projects img {
-        max-width: 150px;
-        max-height: 150px;
+        max-width: 100%;
+        max-height: 100%;
     }
     .connect h3 {
         font-size: 12pt;
@@ -267,15 +269,15 @@ footer {
 }
 
 /*575px screens and smaller stylings*/
-/* @media screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
     header {
-        padding: 5px 0px;
+        padding: 7px 0px 4px 0px
     }
     header nav ul li {
         padding-right: 15px;
     }
     header nav ul li a {
-        font-size: 14pt;
+        font-size: 10pt;
     }
     .about-me-styling {
         padding: 20px 0px 0px 0px;
@@ -290,14 +292,22 @@ footer {
     }
     .about-me-styling-section p {
         font-size: 9pt;
-        padding: 5px 20px 0px 45px;
+        padding: 0px 2px 0px 15px;
     }
     .personal-facts img {
-        width: 5cm;
-        height: 5cm;
+        width: 3.5cm;
+        height: 3.5cm;
+    }
+    .creations-banner {
+        font-size: 13pt;
+    }
+    .preview-creations {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .completed-projects img {
-        max-width: 150px;
-        max-height: 150px;
+        max-width: 100%;
+        max-height: 100%;
     }
-} */
+}
