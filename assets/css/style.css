@@ -64,16 +64,17 @@ header nav ul li a:hover {
 
 /*Begin styling About Me section*/
 .about-me-styling {
+    padding: 25px 30px 0px 30px;
     background-color: var(--tertiary-color);
     padding-top: 50px;
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    align-items: flex-start;
     justify-content: space-evenly;
 }
 
 .about-me-styling-section {
+    display: inline;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     color: var(--secondary-color);
@@ -85,17 +86,15 @@ header nav ul li a:hover {
     font-size: 30pt;
     text-align: center;
     content: "";
-    display: block;
     margin: 0 auto;
-    width: 70%;
-    padding-top: 20px;
+    width: 80%;
     border-bottom: 2px solid var(--secondary-color);
 }
 
 .about-me-styling-section p {
     font-size: 14pt;
     color: black;
-    padding: 15px 0px 0px 70px;
+    padding: 0px 0px 0px 70px;
 }
 
 .personal-facts img {
@@ -149,7 +148,6 @@ header nav ul li a:hover {
     box-shadow: 5px 5px;
     z-index: 999;
 }
-
 
  /*Begin footer styling*/
 footer {
