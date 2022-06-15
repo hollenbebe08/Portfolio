@@ -1,9 +1,3 @@
-:root {
-    --primary-color: #848269;
-    --secondary-color: rgb(17,34,61);
-    --tertiary-color: white;
-}
-
 * {
     margin:0;
     padding: 0;
@@ -11,7 +5,7 @@
 }
 
 body {
-    background-color:white; 
+    background-image: url("https://images.pexels.com/photos/4709443/pexels-photo-4709443.jpeg");
 }
 
 /*Header Styling*/
@@ -24,7 +18,6 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     justify-content: right;
-    align-items: center;
     list-style: none;
     padding: 20px;
     border-bottom: solid black;
@@ -35,78 +28,22 @@ header nav ul li {
     padding-right: 30px;
 }
 
-
-/*Begin styling About Me section*/
-.about-me-styling {
-    padding: 25px 30px 0px 30px;
-    background-color: var(--tertiary-color);
-    padding-top: 50px;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.about-me-styling-section {
-    display: inline;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    color: var(--secondary-color);
-    width: 40%;
-    padding-left: 20px;
-}
-
-.about-me-styling-section h1 {
-    font-size: 30pt;
-    text-align: center;
-    content: "";
-    margin: 0 auto;
-    width: 80%;
-    border-bottom: 2px solid var(--secondary-color);
-}
-
-.about-me-styling-section p {
-    font-size: 14pt;
-    color: black;
-    padding: 0px 0px 0px 70px;
-}
-
-.personal-facts img {
-    margin: auto;
-    width: 10cm;
-    height: 10cm;
-    overflow: auto;
-    border: 5px solid var(--primary-color);
-    border-radius: 2px;
-    box-shadow: 5px 5px;
-}
-
 /*begin styling creation preview section*/
 .creations-banner {
     text-align: center;
     font-size: 30pt;
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--secondary-color);
-    background-color: var(--tertiary-color);
     border-bottom: 2px solid;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 20px auto;
     width: 25%;
-    padding-top: 70px;
+    padding-top: 20px;
 }
 
-
 .preview-creations {
-    margin: 0 auto;
-    background-color: var(--tertiary-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 20px;
-}
-
-.completed-projects img {
-    max-width: 400px;
-    max-height: 400px;
+    padding-bottom: 100px; 
 }
 
 /* .completed-projects img:hover {
@@ -120,9 +57,26 @@ header nav ul li {
     z-index: 999;
 } */
 
+/*Begin styling About Me section*/
+.about-me-styling {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 10px; 
+}
+
+.about-me-styling h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid black;
+    margin: 0 auto 20px auto;
+}
+
+.personal-info{
+    padding-bottom: 100px; 
+}
+
  /*Begin footer styling*/
 footer {
-    padding: 10px 25px;
     background-image: url("https://images.pexels.com/photos/7120460/pexels-photo-7120460.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -131,21 +85,8 @@ footer {
     border-top: solid black;
 }
 
-.connect {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    color:white;
-    text-decoration: none;
-}
-
-.connect h3 {
-    padding-bottom: 10px;
-}
-
-.connect h3 {
-    display: flex;
-    justify-content: left;
+footer h3 {
+    color: white;
 }
 
 /*Start Media queries*/

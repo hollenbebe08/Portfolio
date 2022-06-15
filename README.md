@@ -12,5 +12,3 @@ https://hollenbebe08.github.io/Portfolio/
 
 ## Contribution:
 Made by Betsy Griffith, 2022
-
-![screenshot of portfolio](./assets/images/screenshot-portfolio.png)
