@@ -1,7 +1,7 @@
 :root {
     --primary-color: #848269;
     --secondary-color: rgb(17,34,61);
-    --tertiary-color: rgb(255,235,205);
+    --tertiary-color: white;
 }
 
 * {
@@ -11,12 +11,12 @@
 }
 
 body {
-    background-color:var(--tertiary-color);  
+    background-color:white; 
 }
 
 /*Header Styling*/
 header {
-    background-color: rgb(17,34,61,.5);
+    background-image: url("https://images.pexels.com/photos/7120460/pexels-photo-7120460.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0,0,0);
     font-weight: 500;
@@ -30,37 +30,11 @@ header {
     border-bottom: solid black;
 }
 
-
-header a {
-    text-decoration: none;
-    color: var(--tertiary-color);
-}
-
-header nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
 header nav ul li {
     display: inline;
     padding-right: 30px;
 }
 
-header nav ul li a {
-    border-spacing: 20px;
-    border-style: outset;
-    border: 2px solid var(--tertiary-color);
-    border-radius: 5px;
-    font-size: 16pt;
-}
-
-header nav ul li a:hover {
-    background: var(--primary-color);
-    border-radius: 5px;
-}
 
 /*Begin styling About Me section*/
 .about-me-styling {
@@ -120,17 +94,14 @@ header nav ul li a:hover {
     padding-top: 70px;
 }
 
+
 .preview-creations {
     margin: 0 auto;
     background-color: var(--tertiary-color);
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
     padding-bottom: 20px;
-}
-
-.completed-projects {
-    width: 30%; 
 }
 
 .completed-projects img {
@@ -138,7 +109,7 @@ header nav ul li a:hover {
     max-height: 400px;
 }
 
-.completed-projects img:hover {
+/* .completed-projects img:hover {
     position: relative;
     top: -25px;
     left:-35px;
@@ -147,12 +118,12 @@ header nav ul li a:hover {
     display: block;
     box-shadow: 5px 5px;
     z-index: 999;
-}
+} */
 
  /*Begin footer styling*/
 footer {
     padding: 10px 25px;
-    background-color: rgb(17,34,61,.5);
+    background-image: url("https://images.pexels.com/photos/7120460/pexels-photo-7120460.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-between;
@@ -164,7 +135,7 @@ footer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    color: rgb(0,0,0);
+    color:white;
     text-decoration: none;
 }
 

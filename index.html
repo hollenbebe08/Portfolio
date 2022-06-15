@@ -1,29 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title> Betsy Griffith's Portfolio</title>
-        <link rel="stylesheet" href="./assets/css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title> Betsy Griffith's Portfolio</title>
     </head>
     <body>
         <header>
-            </section>
             <nav>
-                <ul>
-                    <li>
-                        <a href="#about-me">About Me</a>
+                <ul class="nav nav-pills justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about-me">About Me</a>
                     </li>
-                    <li>
-                        <a href="#creations">Creations</a>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#creations">Creations</a>
                     </li>
-                    <li>
-                        <a href="#contact-info">Contact Info</a>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#contact-info">Contact Info</a>
                     </li>
                 </ul>
             </nav>
         </header>
-        <section id="about-me" class="about-me-styling">
+        <section id="about-me" class="container about-me-styling">
             <div class="about-me-styling-section">
                 <h1>A Little Bit About Me:</h1></br>
                 <p>
@@ -34,30 +33,30 @@
                 <img src="./assets/images/betsy.jpg" alt="Betsy Griffith smiling with a mountain in her background">
             </div>
         </section>
-        <section>
+        <section class="container">
             <h1 class="creations-banner">Creations</h1>
         </section>
-        <section id="creations">
-            <div class="preview-creations"> 
-                <article class="completed-projects">
-                    <div>
-                        <h2>Placeholder Title</h2>
+        <section class="container" id="creations">
+            <div class="row preview-creations"> 
+                <article class="col-3 completed-projects">
+                    <div class="card mb-3">
+                        <h2 class="card-header text-center">CATastrophic</h2>
                         <!-- currently the link for this project only goes to my LinkedIn Profile. Once I have an image for the project and a link then I will update. -->
-                        <a href="https://www.linkedin.com/in/betsy-griffith-aab52546/"><img src="./assets/images/placeholder-one.jpg" alt=""></a>
+                        <a href="https://hollenbebe08.github.io/project-catastrophic/"><img src="./assets/images/catastrophic-preview.png" class="card-img-bottom" alt=""></a>
                     </div>
                 </article>
-                <article class="completed-projects">
-                    <div>
-                        <h2>Placeholder Title</h2>
+                <article class="col-3 completed-projects">
+                    <div class="card mb-3">
+                        <h2 class="card-header">Placeholder Title</h2>
                         <!-- currently the link for this project only goes to my LinkedIn Profile. Once I have an image for the project and a link then I will update. -->
-                        <a href="https://www.linkedin.com/in/betsy-griffith-aab52546/"><img src="./assets/images/placeholder-two.jpg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/betsy-griffith-aab52546/"><img src="./assets/images/placeholder-two.jpg" class="card-img-bottom" alt=""></a>
                     </div>
                 </article>
-                <article class="completed-projects">
-                    <div>
-                        <h2>Placeholder Title</h2>
+                <article class="col-3 completed-projects">
+                    <div class="card mb-3">
+                        <h2 class="card-header">Placeholder Title</h2>
                         <!-- currently the link for this project only goes to my LinkedIn Profile. Once I have an image for the project and a link then I will update. -->
-                        <a href="https://www.linkedin.com/in/betsy-griffith-aab52546/"><img src="./assets/images/placeholder-three.jpg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/betsy-griffith-aab52546/"><img src="./assets/images/placeholder-three.jpg" class="card-img-bottom" alt=""></a>
                     </div>
                 </article>
             </div>
@@ -72,4 +71,6 @@
             <h3> 💡Webpage created by Betsy Griffith </h2>
         </footer>
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </html>
